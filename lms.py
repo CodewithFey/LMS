@@ -95,7 +95,7 @@ while True:
     elif choice == "3":
         book_title_to_remove = input("Enter the title of the book to remove: ")
         lib.remove_book(book_title_to_remove)
-    elif choice == "q" or "Q":
+    elif choice in ("q", "Q"):
         print("Quitting...")
         break
     else:
